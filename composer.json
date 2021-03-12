@@ -1,0 +1,14 @@
+{
+    "name": "samsons/litnet-test",
+    "description": "Job test task",
+    "autoload": {
+        "psr-4": {
+            "Task\\": "Task/",
+            "database\\": "database/"
+        }
+    },
+    "require": {
+        "league/iso3166": "^3.0",
+        "ext-pdo": "*"
+    }
+}
